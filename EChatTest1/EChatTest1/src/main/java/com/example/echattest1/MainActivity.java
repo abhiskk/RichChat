@@ -21,7 +21,7 @@ public class MainActivity extends Activity {
 
         Log.e("Temp ","Error1");
 
-        new GetYoutubeThumbNail((ImageView) findViewById(R.id.thumbNail)).execute("http://img.youtube.com/vi/J9rBIKHJoaY/0.jpg");
+//        new GetYoutubeThumbNail((ImageView) findViewById(R.id.thumbNail)).execute("http://img.youtube.com/vi/J9rBIKHJoaY/0.jpg");
 
     }
 

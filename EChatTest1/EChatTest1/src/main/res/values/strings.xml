@@ -7,5 +7,11 @@
     </string>
     <string name="hello_world" >Hello world!
     </string>
+    <string name="edittext1">Enter
+    </string>
+    <string name="button1">Preview
+    </string>
+    <string name="textView2">Result goes here
+    </string>
 
 </resources>

@@ -6,7 +6,10 @@
 
     <string name="action_settings">Settings</string>
     <string name="app_name">EChatTest1</string>
+    <string name="button1">Preview</string>
+    <string name="edittext1">Enter</string>
     <string name="hello_world">Hello world!</string>
+    <string name="textView2">Result goes here</string>
 
     <style name="AppBaseTheme" parent="android:Theme.Light">
         <!--
