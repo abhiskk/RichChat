@@ -7,6 +7,8 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import java.util.ArrayList;
+
 public class MainActivity extends Activity {
 
     @Override
@@ -19,9 +21,11 @@ public class MainActivity extends Activity {
 
     public void previewUrl (View v) {
 
-        Log.e("Temp ","Error1");
+        GetUrls getUrls = new GetUrls();
 
-//        new GetYoutubeThumbNail((ImageView) findViewById(R.id.thumbNail)).execute("http://img.youtube.com/vi/J9rBIKHJoaY/0.jpg");
+        ArrayList<ThumbnailInfo> te1 = getUrls.extract("fnlkewnflnew http://www.youtube.com/watch?v=j4dMnAPZu70 fwlnflnwfe nflkwfelneflnw");
+
+        new GetThumbNail((ImageView) findViewById(R.id.thumbNail)).execute(te1.get(0).url);
 
     }
 
