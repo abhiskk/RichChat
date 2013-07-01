@@ -67,28 +67,44 @@
 
         </ScrollView>
 
-        <LinearLayout
+        <ScrollView
             android:layout_width="match_parent"
             android:layout_height="0dip"
             android:layout_weight="1"
-            android:orientation="vertical"
             >
 
-            <TextView
-                    android:id="@+id/textView2"
+            <LinearLayout
+                android:id="@+id/previewLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+                <View
+                        android:layout_width="match_parent"
+                        android:layout_height="3sp"
+                        android:background="?android:attr/dividerHorizontal"
+                        />
+
+                <TextView
+                        android:id="@+id/textView2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/textView2"
+                        />
+
+                <LinearLayout
+                    android:id="@+id/imageLayout"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="@string/textView2"
-                    />
+                    android:orientation="vertical"
+                    >
 
-            <ImageView
-                android:id="@+id/thumbNail"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:contentDescription="@string/app_name"
-                />
+                </LinearLayout>
 
-        </LinearLayout>
+            </LinearLayout>
+
+        </ScrollView>
 
     </LinearLayout>
 
