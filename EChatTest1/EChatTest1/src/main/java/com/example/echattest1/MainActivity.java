@@ -41,7 +41,7 @@ public class MainActivity extends Activity {
         for(final ThumbnailInfo thumbnailInfo : te1) {
             if(thumbnailInfo.imageURL.equals(""))
                 continue;
-            addImage(imageLayout,thumbnailInfo.imageURL,thumbnailInfo.enteredURL);
+            addThumbNail(imageLayout,thumbnailInfo.imageURL,thumbnailInfo.enteredURL);
         }
 
     }
@@ -50,7 +50,7 @@ public class MainActivity extends Activity {
         getWindow().setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_STATE_HIDDEN);
     }
 
-    public void addImage(LinearLayout imageLayout,String thumbNailSource,final String url) {
+    public void addThumbNail(LinearLayout imageLayout,String thumbNailSource,final String url) {
         ImageView iv = new ImageView(this);
         LinearLayout.LayoutParams lp = new LinearLayout.LayoutParams(LinearLayout.LayoutParams.WRAP_CONTENT,LinearLayout.LayoutParams.WRAP_CONTENT);
         lp.gravity = Gravity.LEFT;
@@ -67,7 +67,6 @@ public class MainActivity extends Activity {
         imageLayout.addView(iv);
         new GetThumbNail(iv).execute(thumbNailSource);
         Log.e("Logcat ","here1"+" "+thumbNailSource);
-//            new GetThumbNailSrcCode(iv).execute(i.url2);
         View separatingView = new View(this);
         separatingView.setLayoutParams(new TableRow.LayoutParams(TableRow.LayoutParams.MATCH_PARENT,5));
         separatingView.setBackgroundColor(0);

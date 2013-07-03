@@ -20,7 +20,7 @@
     <ignored path="EChatTest1.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/activity_main.xml" changelist="15049b83-dc52-4cec-a8d0-a73b6054cf84" time="1372672359290" ignored="false" />
-    <file path="/MainActivity.java" changelist="15049b83-dc52-4cec-a8d0-a73b6054cf84" time="1372843536914" ignored="false" />
+    <file path="/MainActivity.java" changelist="15049b83-dc52-4cec-a8d0-a73b6054cf84" time="1372844566930" ignored="false" />
     <file path="/AndroidManifest.xml" changelist="15049b83-dc52-4cec-a8d0-a73b6054cf84" time="1372250453560" ignored="false" />
     <file path="/GetHTML.java" changelist="15049b83-dc52-4cec-a8d0-a73b6054cf84" time="1372252343882" ignored="false" />
     <file path="/fragment.java" changelist="15049b83-dc52-4cec-a8d0-a73b6054cf84" time="1372252450127" ignored="false" />
@@ -99,11 +99,9 @@
       <file leaf-file-name="MainActivity.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/EChatTest1/src/main/java/com/example/echattest1/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="75" column="0" selection-start="2784" selection-end="2784" vertical-scroll-proportion="0.35754824">
+            <state line="43" column="25" selection-start="1486" selection-end="1486" vertical-scroll-proportion="0.5618615">
               <folding>
-                <element signature="method#previewUrl#0;class#MainActivity#0" expanded="false" />
                 <element signature="method#hideKeyBoardOnStart#0;class#MainActivity#0" expanded="false" />
-                <element signature="method#addImage#0;class#MainActivity#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -528,12 +526,12 @@
       <workItem from="1372422004397" duration="260000" />
       <workItem from="1372652732291" duration="25572000" />
       <workItem from="1372743657720" duration="20793000" />
-      <workItem from="1372828325711" duration="11145000" />
+      <workItem from="1372828325711" duration="11802000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="86758000" />
+    <option name="totallyTimeSpent" value="87415000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="-4" width="1682" height="1055" extended-state="6" />
@@ -739,11 +737,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/EChatTest1/src/main/java/com/example/echattest1/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="75" column="0" selection-start="2784" selection-end="2784" vertical-scroll-proportion="0.35754824">
+        <state line="43" column="25" selection-start="1486" selection-end="1486" vertical-scroll-proportion="0.5618615">
           <folding>
-            <element signature="method#previewUrl#0;class#MainActivity#0" expanded="false" />
             <element signature="method#hideKeyBoardOnStart#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#addImage#0;class#MainActivity#0" expanded="false" />
           </folding>
         </state>
       </provider>
