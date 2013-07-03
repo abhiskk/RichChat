@@ -12,8 +12,6 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity android:name="com.example.echattest1.GetHTML"/>
-        <activity android:name="com.example.echattest1.GetPage"/>
     </application>
 
 </manifest>
