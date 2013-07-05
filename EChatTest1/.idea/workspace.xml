@@ -155,7 +155,7 @@
           <file leaf-file-name="GetThumbNailSrcCode.java" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/EChatTest1/src/main/java/com/example/echattest1/GetThumbNailSrcCode.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="44" column="41" selection-start="1471" selection-end="1471" vertical-scroll-proportion="0.08640553">
+                <state line="44" column="41" selection-start="1471" selection-end="1471" vertical-scroll-proportion="-0.10599078">
                   <folding />
                 </state>
               </provider>
@@ -634,16 +634,16 @@
       <workItem from="1372828325711" duration="22276000" />
       <workItem from="1372910491822" duration="2526000" />
       <workItem from="1372913676191" duration="30294000" />
-      <workItem from="1372997601815" duration="11203000" />
+      <workItem from="1372997601815" duration="11506000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="141912000" />
+    <option name="totallyTimeSpent" value="142215000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="-4" width="1682" height="1055" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3272059" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -830,7 +830,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/EChatTest1/src/main/java/com/example/echattest1/GetThumbNailSrcCode.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="41" selection-start="1471" selection-end="1471" vertical-scroll-proportion="0.08640553">
+        <state line="44" column="41" selection-start="1471" selection-end="1471" vertical-scroll-proportion="-0.10599078">
           <folding />
         </state>
       </provider>
