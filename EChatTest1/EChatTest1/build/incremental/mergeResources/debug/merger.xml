@@ -110,6 +110,11 @@
                 path="/home/abhishek/workspace/test/EChatTest1/EChatTest1/src/main/res/drawable-xhdpi/ic_launcher.png"
                 qualifiers="xhdpi"
                 type="drawable" />
+            <file
+                name="thumbnail_view"
+                path="/home/abhishek/workspace/test/EChatTest1/EChatTest1/src/main/res/layout/thumbnail_view.xml"
+                qualifiers=""
+                type="layout" />
         </source>
         <source path="/home/abhishek/workspace/test/EChatTest1/EChatTest1/build/res/rs/debug" />
     </dataSet>

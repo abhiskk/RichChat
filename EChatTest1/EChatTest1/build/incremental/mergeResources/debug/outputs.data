@@ -2,6 +2,7 @@
 # format is <lastModified> <length> <SHA-1> <path>
 # Encoding is UTF-8
 1372831208000 244 045ff451db7cd8e61285502b8c9bbf7405f2078d /home/abhishek/workspace/test/EChatTest1/EChatTest1/build/res/all/debug/menu/main.xml
+1373007217000 1895 4a380bc62d8b5b1202f65c9a3b7fc04a88de0af4 /home/abhishek/workspace/test/EChatTest1/EChatTest1/build/res/all/debug/layout/thumbnail_view.xml
 1372831208000 217 f02e000d05a079992d2dba18039216c1e6b8784f /home/abhishek/workspace/test/EChatTest1/EChatTest1/build/res/all/debug/values-v14/values.xml
 1372831208000 3769 eec07752d40e268ed7f4a1730acc77ab1e40aeb0 /home/abhishek/workspace/test/EChatTest1/EChatTest1/build/res/all/debug/drawable-mdpi/ic_launcher.png
 1372831208000 931 fca541a12139c2e5e578eafa831c0f85516cf755 /home/abhishek/workspace/test/EChatTest1/EChatTest1/build/res/all/debug/values/values.xml

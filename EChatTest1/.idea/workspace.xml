@@ -12,15 +12,12 @@
       <config />
     </shared>
   </component>
-  <component name="AndroidLogFilters">
-    <option name="TOOL_WINDOW_CUSTOM_FILTER" value="Logcat" />
-  </component>
   <component name="ChangeListManager">
     <list default="true" id="15049b83-dc52-4cec-a8d0-a73b6054cf84" name="Default" comment="" />
     <ignored path="EChatTest1.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/activity_main.xml" changelist="15049b83-dc52-4cec-a8d0-a73b6054cf84" time="1372672359290" ignored="false" />
-    <file path="/MainActivity.java" changelist="15049b83-dc52-4cec-a8d0-a73b6054cf84" time="1372844566930" ignored="false" />
+    <file path="/MainActivity.java" changelist="15049b83-dc52-4cec-a8d0-a73b6054cf84" time="1373008113473" ignored="false" />
     <file path="/AndroidManifest.xml" changelist="15049b83-dc52-4cec-a8d0-a73b6054cf84" time="1372250453560" ignored="false" />
     <file path="/GetHTML.java" changelist="15049b83-dc52-4cec-a8d0-a73b6054cf84" time="1372252343882" ignored="false" />
     <file path="/fragment.java" changelist="15049b83-dc52-4cec-a8d0-a73b6054cf84" time="1372252450127" ignored="false" />
@@ -34,8 +31,13 @@
     <file path="/ThumbnailInfo.java" changelist="15049b83-dc52-4cec-a8d0-a73b6054cf84" time="1372843479997" ignored="false" />
     <file path="$PROJECT_DIR$/EChatTest1/build/res/all/debug/layout/activity_main.xml" changelist="15049b83-dc52-4cec-a8d0-a73b6054cf84" time="1372664232256" ignored="false" />
     <file path="/GetThumbNail.java" changelist="15049b83-dc52-4cec-a8d0-a73b6054cf84" time="1372679488802" ignored="false" />
-    <file path="/GetThumbNailSrcCode.java" changelist="15049b83-dc52-4cec-a8d0-a73b6054cf84" time="1372833915033" ignored="false" />
+    <file path="/GetThumbNailSrcCode.java" changelist="15049b83-dc52-4cec-a8d0-a73b6054cf84" time="1373007960540" ignored="false" />
     <file path="/build.gradle" changelist="15049b83-dc52-4cec-a8d0-a73b6054cf84" time="1372772377775" ignored="false" />
+    <file path="/Dummy.txt" changelist="15049b83-dc52-4cec-a8d0-a73b6054cf84" time="1372934387523" ignored="false" />
+    <file path="/thumbnail_view.xml" changelist="15049b83-dc52-4cec-a8d0-a73b6054cf84" time="1373007056547" ignored="false" />
+    <file path="$PROJECT_DIR$/EChatTest1/build/source/r/debug/com/example/echattest1/R.java" changelist="15049b83-dc52-4cec-a8d0-a73b6054cf84" time="1372940106361" ignored="false" />
+    <file path="/ThumbNailViewInfo.java" changelist="15049b83-dc52-4cec-a8d0-a73b6054cf84" time="1372939175425" ignored="false" />
+    <file path="$PROJECT_DIR$/EChatTest1/build/res/all/debug/layout/thumbnail_view.xml" changelist="15049b83-dc52-4cec-a8d0-a73b6054cf84" time="1373007220329" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,32 +97,100 @@
     <favorites_list name="EChatTest1" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="MainActivity.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/EChatTest1/src/main/java/com/example/echattest1/MainActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="43" column="25" selection-start="1486" selection-end="1486" vertical-scroll-proportion="0.5618615">
-              <folding>
-                <element signature="method#hideKeyBoardOnStart#0;class#MainActivity#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="YoutubeChecker.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/EChatTest1/src/main/java/com/example/echattest1/YoutubeChecker.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="0" selection-start="147" selection-end="147" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="method#YoutubeChecker#0;class#YoutubeChecker#0" expanded="false" />
-                <element signature="method#valid#0;class#YoutubeChecker#0" expanded="false" />
-                <element signature="method#getId#0;class#YoutubeChecker#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.47585115">
+      <split-first>
+        <leaf>
+          <file leaf-file-name="MainActivity.java" pinned="false" current="true" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/EChatTest1/src/main/java/com/example/echattest1/MainActivity.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="36" column="64" selection-start="1267" selection-end="1267" vertical-scroll-proportion="0.41474655">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="thumbnail_view.xml" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/EChatTest1/src/main/res/layout/thumbnail_view.xml">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="19" column="0" selection-start="547" selection-end="547" vertical-scroll-proportion="-11.4">
+                  <folding />
+                </state>
+              </provider>
+              <provider editor-type-id="android-designer">
+                <state />
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="GetThumbNail.java" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/EChatTest1/src/main/java/com/example/echattest1/GetThumbNail.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="22" column="0" selection-start="555" selection-end="555" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="YoutubeChecker.java" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/EChatTest1/src/main/java/com/example/echattest1/YoutubeChecker.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="28" column="26" selection-start="860" selection-end="860" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="ThumbnailInfo.java" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/EChatTest1/src/main/java/com/example/echattest1/ThumbnailInfo.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="4" column="13" selection-start="88" selection-end="88" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="GetThumbNailSrcCode.java" pinned="false" current="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/EChatTest1/src/main/java/com/example/echattest1/GetThumbNailSrcCode.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="44" column="41" selection-start="1471" selection-end="1471" vertical-scroll-proportion="0.08640553">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="ThumbNailViewInfo.java" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/EChatTest1/src/main/java/com/example/echattest1/ThumbNailViewInfo.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="3" column="0" selection-start="65" selection-end="65" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Element.class" pinned="false" current="false" current-in-tab="false">
+            <entry file="jar://$PROJECT_DIR$/EChatTest1/libs/jsoup-1.7.2.jar!/org/jsoup/nodes/Element.class">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="44" column="36" selection-start="1759" selection-end="1784" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="GetUrls.java" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/EChatTest1/src/main/java/com/example/echattest1/GetUrls.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="17" column="15" selection-start="358" selection-end="358" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -130,7 +200,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/EChatTest1/src/main/java/GetHTML.java" />
         <option value="$PROJECT_DIR$/EChatTest1/src/main/java/com/example/echattest1/GetPage.java" />
         <option value="$PROJECT_DIR$/EChatTest1/src/main/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/EChatTest1/src/main/java/com/example/echattest1/UrlLocation.java" />
@@ -139,11 +208,13 @@
         <option value="$PROJECT_DIR$/EChatTest1/src/main/res/layout/activity_main.xml" />
         <option value="$PROJECT_DIR$/EChatTest1/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/EChatTest1/build.gradle" />
-        <option value="$PROJECT_DIR$/EChatTest1/src/main/java/com/example/echattest1/GetThumbNailSrcCode.java" />
         <option value="$PROJECT_DIR$/EChatTest1/src/main/java/com/example/echattest1/YoutubeChecker.java" />
         <option value="$PROJECT_DIR$/EChatTest1/src/main/java/com/example/echattest1/GetThumbNail.java" />
-        <option value="$PROJECT_DIR$/EChatTest1/src/main/java/com/example/echattest1/GetUrls.java" />
         <option value="$PROJECT_DIR$/EChatTest1/src/main/java/com/example/echattest1/ThumbnailInfo.java" />
+        <option value="$PROJECT_DIR$/EChatTest1/src/main/java/com/example/echattest1/GetUrls.java" />
+        <option value="$PROJECT_DIR$/EChatTest1/src/main/java/com/example/echattest1/ThumbNailViewInfo.java" />
+        <option value="$PROJECT_DIR$/EChatTest1/src/main/res/layout/thumbnail_view.xml" />
+        <option value="$PROJECT_DIR$/EChatTest1/src/main/java/com/example/echattest1/GetThumbNailSrcCode.java" />
         <option value="$PROJECT_DIR$/EChatTest1/src/main/java/com/example/echattest1/MainActivity.java" />
       </list>
     </option>
@@ -238,18 +309,12 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="EChatTest1" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -295,6 +360,62 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EChatTest1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EChatTest1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EChatTest1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EChatTest1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EChatTest1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EChatTest1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layout" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -328,26 +449,10 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="EChatTest1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="EChatTest1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="EChatTest1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="libs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -360,15 +465,15 @@
     <property name="options.lastSelected" value="Errors" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/EChatTest1/libs/jsoup-1.7.2.jar!/" />
     <property name="project.structure.side.proportion" value="0.3198146" />
-    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="001938b214b7be" />
+    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="4100fc1f48acaf00" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_AVD" value="test2" />
-    <property name="MemberChooser.showClasses" value="true" />
     <property name="FullScreen" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RunManager" selected="Android Application.EChatTest1-EChatTest1">
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
@@ -526,18 +631,22 @@
       <workItem from="1372422004397" duration="260000" />
       <workItem from="1372652732291" duration="25572000" />
       <workItem from="1372743657720" duration="20793000" />
-      <workItem from="1372828325711" duration="11802000" />
+      <workItem from="1372828325711" duration="22276000" />
+      <workItem from="1372910491822" duration="2526000" />
+      <workItem from="1372913676191" duration="30294000" />
+      <workItem from="1372997601815" duration="11203000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="87415000" />
+    <option name="totallyTimeSpent" value="141912000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="-4" width="1682" height="1055" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3272059" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296582" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
@@ -545,17 +654,16 @@
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296582" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22601984" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27232635" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32986537" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32986537" sideWeight="0.72767365" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.51713586" sideWeight="0.77398014" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.51713586" sideWeight="0.72767365" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.35832414" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3293745" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925338" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3293745" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3272059" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290441" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296582" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -624,123 +732,113 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/settings.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/local.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="41" selection-start="431" selection-end="431" vertical-scroll-proportion="0.2" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EChatTest1-EChatTest1.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="70" column="52" selection-start="5407" selection-end="5414" vertical-scroll-proportion="1.0643642" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EChatTest1.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="107" selection-end="107" vertical-scroll-proportion="0.044444446" />
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/EChatTest1/libs/jsoup-1.7.2.jar!/org/jsoup/nodes/Document.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="11" selection-start="341" selection-end="341" vertical-scroll-proportion="-5.4">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gradlew">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EChatTest1/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="41" selection-start="305" selection-end="305" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gradlew.bat">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-1.0180995">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-1.0180995" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/EChatTest1/src/main/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="36" selection-start="291" selection-end="291" vertical-scroll-proportion="0.13620885">
+        <state line="8" column="36" selection-start="291" selection-end="291" vertical-scroll-proportion="0.13824885">
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/EChatTest1/src/main/res/layout/activity_main.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/sdk/platforms/android-17/android.jar!/android/view/LayoutInflater.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="29" selection-start="1262" selection-end="1262" vertical-scroll-proportion="0.4642857" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EChatTest1/src/main/java/com/example/echattest1/YoutubeChecker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="26" selection-start="860" selection-end="860" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/EChatTest1/libs/jsoup-1.7.2.jar!/org/jsoup/nodes/Document.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="28" selection-start="669" selection-end="669" vertical-scroll-proportion="0.3024911" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/EChatTest1/src/main/java/com/example/echattest1/GetThumbNail.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="43" selection-start="504" selection-end="504" vertical-scroll-proportion="0.28944382">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#GetThumbNail#0;class#GetThumbNail#0" expanded="false" />
-            <element signature="method#doInBackground#0;class#GetThumbNail#0" expanded="false" />
-            <element signature="method#onPostExecute#0;class#GetThumbNail#0" expanded="false" />
-          </folding>
+        <state line="22" column="0" selection-start="555" selection-end="555" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/EChatTest1/src/main/java/com/example/echattest1/GetThumbNailSrcCode.java">
+    <entry file="file://$PROJECT_DIR$/EChatTest1/build/res/all/debug/layout/thumbnail_view.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="26" selection-start="895" selection-end="895" vertical-scroll-proportion="0.60839957">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EChatTest1/src/main/java/com/example/echattest1/GetUrls.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="13" selection-start="240" selection-end="240" vertical-scroll-proportion="0.15323496">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#extract#0;class#GetUrls#0" expanded="false" />
-          </folding>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/EChatTest1/src/main/java/com/example/echattest1/ThumbnailInfo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="13" selection-start="88" selection-end="88" vertical-scroll-proportion="0.06810442">
+        <state line="4" column="13" selection-start="88" selection-end="88" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/EChatTest1/src/main/java/com/example/echattest1/YoutubeChecker.java">
+    <entry file="file://$PROJECT_DIR$/EChatTest1/src/main/java/com/example/echattest1/ThumbNailViewInfo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="147" selection-end="147" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="method#YoutubeChecker#0;class#YoutubeChecker#0" expanded="false" />
-            <element signature="method#valid#0;class#YoutubeChecker#0" expanded="false" />
-            <element signature="method#getId#0;class#YoutubeChecker#0" expanded="false" />
-          </folding>
+        <state line="3" column="0" selection-start="65" selection-end="65" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/EChatTest1/libs/jsoup-1.7.2.jar!/org/jsoup/nodes/Element.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="36" selection-start="1759" selection-end="1784" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EChatTest1/src/main/java/com/example/echattest1/GetUrls.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="15" selection-start="358" selection-end="358" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EChatTest1/src/main/res/layout/thumbnail_view.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="0" selection-start="547" selection-end="547" vertical-scroll-proportion="-11.4">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EChatTest1/src/main/java/com/example/echattest1/GetThumbNailSrcCode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="41" selection-start="1471" selection-end="1471" vertical-scroll-proportion="0.08640553">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/EChatTest1/src/main/java/com/example/echattest1/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="25" selection-start="1486" selection-end="1486" vertical-scroll-proportion="0.5618615">
-          <folding>
-            <element signature="method#hideKeyBoardOnStart#0;class#MainActivity#0" expanded="false" />
-          </folding>
+        <state line="36" column="64" selection-start="1267" selection-end="1267" vertical-scroll-proportion="0.41474655">
+          <folding />
         </state>
       </provider>
     </entry>

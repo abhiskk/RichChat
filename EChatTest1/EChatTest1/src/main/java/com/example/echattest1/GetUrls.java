@@ -28,9 +28,9 @@ public class GetUrls {
             String urlStr = urlMatcher.group();
             if(urlStr.startsWith("(") && urlStr.endsWith(")") )
                 urlStr = urlStr.substring(1,urlStr.length()-1);
-            if(youtubeChecker.valid(urlStr)) {
+//            if(youtubeChecker.valid(urlStr)) {
                 images.add(new ThumbnailInfo(youtubeChecker.getId(urlStr),urlStr,urlMatcher.end()));
-            }
+//            }
         }
 
         return images;
