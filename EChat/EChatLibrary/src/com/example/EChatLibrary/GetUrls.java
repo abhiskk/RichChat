@@ -7,7 +7,6 @@ import java.util.regex.Pattern;
 public class GetUrls {
 
     public GetUrls() {
-
     }
 
     public ArrayList<ThumbnailInfo> extract(String input) {
@@ -16,18 +15,20 @@ public class GetUrls {
 
         Pattern urlPattern = Pattern.compile(urlRegex);
         Matcher urlMatcher = urlPattern.matcher(input);
+        ArrayList<ThumbnailInfo> previewLinks = new ArrayList<ThumbnailInfo>();
 
-        ArrayList<ThumbnailInfo> images = new ArrayList<ThumbnailInfo>();
+        while (urlMatcher.find())
+            previewLinks.add(get(urlMatcher));
 
-        while (urlMatcher.find()) {
-            String urlStr = urlMatcher.group();
-            if (urlStr.startsWith("(") && urlStr.endsWith(")"))
-                urlStr = urlStr.substring(1, urlStr.length() - 1);
-            images.add(new ThumbnailInfo(urlStr, urlMatcher.end()));
-        }
+        return previewLinks;
 
-        return images;
+    }
 
+    ThumbnailInfo get(Matcher urlMatcher) {
+        String urlStr = urlMatcher.group();
+        if (urlStr.startsWith("(") && urlStr.endsWith(")"))
+            urlStr = urlStr.substring(1,urlStr.length()-1);
+        return new ThumbnailInfo(urlStr);
     }
 
 }

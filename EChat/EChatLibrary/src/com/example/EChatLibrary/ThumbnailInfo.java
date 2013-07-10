@@ -5,11 +5,9 @@ package com.example.EChatLibrary;
 public class ThumbnailInfo {
 
     public String enteredURL;
-    public Integer position;
 
-    public ThumbnailInfo(String _url, Integer _position) {
+    public ThumbnailInfo(String _url) {
         enteredURL = _url;
-        position = _position;
     }
 
 }

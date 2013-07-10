@@ -21,13 +21,17 @@ import org.jsoup.nodes.Document;
 import java.io.IOException;
 import java.io.InputStream;
 
-public class GetThumbNail extends AsyncTask<String, Void, ThumbNailViewInfo> {
+public class GetThumbNail extends AsyncTask<String, Void, ThumbnailViewInfo> {
+
+    final int THUMBNAIL_WIDTH = 200;
+    final int THUMBNAIL_HEIGHT = 200;
 
     ImageView _bmImage;
     TextView _titleTextView;
     TextView _descriptionTextView;
     View _childView;
     LinearLayout _imageLayout;
+    Document doc;
 
     public GetThumbNail(LinearLayout imageLayout,View childView) {
         _imageLayout = imageLayout;
@@ -38,7 +42,7 @@ public class GetThumbNail extends AsyncTask<String, Void, ThumbNailViewInfo> {
     }
 
     @Override
-    protected ThumbNailViewInfo doInBackground(final String... url) {
+    protected ThumbnailViewInfo doInBackground(final String... url) {
 
         HttpClient httpClient = new DefaultHttpClient();
         HttpContext localContext = new BasicHttpContext();
@@ -47,15 +51,15 @@ public class GetThumbNail extends AsyncTask<String, Void, ThumbNailViewInfo> {
         try {
             HttpResponse response = httpClient.execute(httpGet, localContext);
             String temp = EntityUtils.toString(response.getEntity());
-            Document doc;
+
             doc = Jsoup.parse(temp);
 
-            String title = getTitle(doc);
-            String description = getDescription(doc);
-            Bitmap bitmap = getImage(doc);
+            String title = getTitle();
+            String description = getDescription();
+            Bitmap bitmap = getImage();
 
             if(bitmap!=null)
-                return new ThumbNailViewInfo(bitmap,title,description);
+                return new ThumbnailViewInfo(bitmap,title,description);
             return null;
         } catch (Exception e) {
             Log.e("Logcat2 ", e.getMessage());
@@ -65,38 +69,7 @@ public class GetThumbNail extends AsyncTask<String, Void, ThumbNailViewInfo> {
 
     }
 
-    String getTitle(Document doc) {
-        org.jsoup.select.Elements titleElement;
-        titleElement = doc.select("meta[property=og:title]");
-        if(titleElement.size()>0) {
-            return titleElement.get(0).attr("content");
-        }
-        return "";
-    }
-
-    String getDescription(Document doc) {
-        org.jsoup.select.Elements despcriptionElement;
-        despcriptionElement = doc.select("meta[property=og:description]");
-        if (despcriptionElement.size() > 0) {
-            return despcriptionElement.get(0).attr("content");
-        }
-        return "";
-    }
-
-    Bitmap getImage(Document doc) throws IOException{
-        org.jsoup.select.Elements metaElements = doc.select("meta[property=og:image]");
-        String thumbNailURL;
-        if(metaElements.size()>0) {
-            thumbNailURL = metaElements.get(0).attr("content");
-            Bitmap bitmap;
-            InputStream in = new java.net.URL(thumbNailURL).openStream();
-            bitmap = BitmapFactory.decodeStream(in);
-            return Bitmap.createScaledBitmap(bitmap,200,200,true);
-        }
-        return null;
-    }
-
-    protected void onPostExecute(ThumbNailViewInfo result) {
+    protected void onPostExecute(ThumbnailViewInfo result) {
         if(result==null)
             return;
         _bmImage.setImageBitmap(result.imageView);
@@ -105,4 +78,37 @@ public class GetThumbNail extends AsyncTask<String, Void, ThumbNailViewInfo> {
         _imageLayout.addView(_childView);
     }
 
+    String getTitle() {
+        org.jsoup.select.Elements titleElement;
+        titleElement = doc.select("meta[property=og:title]");
+        if(titleElement.size()>0) {
+            return titleElement.get(0).attr("content");
+        }
+        return "";
+    }
+
+    String getDescription() {
+        org.jsoup.select.Elements despcriptionElement;
+        despcriptionElement = doc.select("meta[property=og:description]");
+        if (despcriptionElement.size() > 0) {
+            return despcriptionElement.get(0).attr("content");
+        }
+        return "";
+    }
+
+    Bitmap getImage() throws IOException{
+        org.jsoup.select.Elements metaElements = doc.select("meta[property=og:image]");
+        String thumbNailURL;
+        if(metaElements.size()>0) {
+            thumbNailURL = metaElements.get(0).attr("content");
+            Bitmap bitmap;
+            InputStream in = new java.net.URL(thumbNailURL).openStream();
+            bitmap = BitmapFactory.decodeStream(in);
+            return Bitmap.createScaledBitmap(bitmap,THUMBNAIL_WIDTH,THUMBNAIL_HEIGHT,true);
+        }
+        return null;
+    }
+
 }
+
+//xml creation of RichChat left
