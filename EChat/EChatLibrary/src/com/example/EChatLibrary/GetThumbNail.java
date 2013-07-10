@@ -110,5 +110,3 @@ public class GetThumbNail extends AsyncTask<String, Void, ThumbnailViewInfo> {
     }
 
 }
-
-//xml creation of RichChat left

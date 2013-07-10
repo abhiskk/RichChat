@@ -16,7 +16,8 @@ public class MyActivity extends  Activity {
         setContentView(R.layout.main);
         getWindow().setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_STATE_HIDDEN);
         EditText editText = (EditText) findViewById(R.id.editText1);
-        editText.setText("random url : http://www.flickr.com/photos/35972709@N03/8079198551/ something http://www.flickr.com/photos/fcnikon/9127536772 .");
+        editText.setAutoLinkMask(1);
+        editText.setText("random url : http://www.flickr.com/photos/35972709@N03/8079198551/ something http://www.flickr.com/photos/fcnikon/9127536772 . jkfwknfe http://www.youtube.com/watch?v=J9rBIKHJoaY");
     }
 
     public void previewUrl(View v) {
