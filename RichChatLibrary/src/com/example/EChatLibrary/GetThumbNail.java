@@ -69,6 +69,7 @@ public class GetThumbNail extends AsyncTask<String, Void, ThumbnailViewInfo> {
             FromPagesource fromPagesource = new FromPagesource(url[0]);
             if(!fromPagesource.checkResponse())
                 return null;
+
             String title = fromPagesource.getTitle();
             String description = fromPagesource.getDescription();
             Bitmap bitmap = fromPagesource.getImage();
@@ -86,6 +87,7 @@ public class GetThumbNail extends AsyncTask<String, Void, ThumbnailViewInfo> {
     protected void onPostExecute(ThumbnailViewInfo result) {
         if(result==null)
             return;
+
         _bmImage.setImageBitmap(result.imageView);
         _titleTextView.setText(result.textViewTitle);
         _descriptionTextView.setText(result.textViewDescription);

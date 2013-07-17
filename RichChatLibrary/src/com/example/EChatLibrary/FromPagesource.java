@@ -23,7 +23,7 @@ public class FromPagesource {
     HttpGet _httpGet;
     HttpResponse _response;
 
-    String _temp;
+    String _urlSource;
 
     Document _doc;
 
@@ -33,8 +33,8 @@ public class FromPagesource {
         _httpGet = new HttpGet(url);
         try{
             _response = _httpClient.execute(_httpGet,_localContext);
-            _temp= EntityUtils.toString(_response.getEntity());
-            _doc= Jsoup.parse(_temp);
+            _urlSource= EntityUtils.toString(_response.getEntity());
+            _doc= Jsoup.parse(_urlSource);
         }   catch (Exception e) {
             Log.e("Logcat2 ",e.getMessage());
         }

@@ -45,9 +45,9 @@ public class RichChat extends LinearLayout {
 
     public void populateThumbnails(final Context context) {
         GetUrls getUrls = new GetUrls();
-        ArrayList<ThumbnailInfo> te1 = getUrls.extract(chatText);
+        ArrayList<ThumbnailInfo> thumbnails = getUrls.extract(chatText);
 
-        for (final ThumbnailInfo thumbnailInfo : te1) {
+        for (final ThumbnailInfo thumbnailInfo : thumbnails) {
             final String url = thumbnailInfo.enteredURL;
             LayoutInflater vi = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
             View child = vi.inflate(R.layout.thumbnail_view,null);

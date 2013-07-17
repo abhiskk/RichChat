@@ -23,8 +23,9 @@ public class MyActivity extends  Activity {
     public void previewUrl(View v) {
         EditText editText = (EditText) findViewById(R.id.editText1);
         String tempText = editText.getText().toString();
-        RichChat richChat = new RichChat(this,tempText);
         LinearLayout imageLayout = (LinearLayout) findViewById(R.id.imageLayout);
+
+        RichChat richChat = new RichChat(this,tempText);
         imageLayout.addView(richChat);
     }
 
