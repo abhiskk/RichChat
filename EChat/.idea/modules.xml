@@ -3,7 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/EChat.iml" filepath="$PROJECT_DIR$/EChat.iml" />
-      <module fileurl="file://$PROJECT_DIR$/EChatLibrary/EChatLibrary.iml" filepath="$PROJECT_DIR$/EChatLibrary/EChatLibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../EChatLibrary/EChatLibrary.iml" filepath="$PROJECT_DIR$/../EChatLibrary/EChatLibrary.iml" />
     </modules>
   </component>
 </project>
