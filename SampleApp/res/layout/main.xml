@@ -62,7 +62,7 @@
                         android:hint="@string/edittext1"
                         />
 
-                <!--<com.example.EChatLibrary.RichChat-->
+                <!--<com.example.RichChathChat-->
                     <!--android:id="@+id/view1"-->
                     <!--android:layout_width="match_parent"-->
                     <!--android:layout_height="wrap_content"-->

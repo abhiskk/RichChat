@@ -6,8 +6,6 @@ import android.view.View;
 import android.view.WindowManager;
 import android.widget.*;
 
-import com.example.EChatLibrary.*;
-
 public class MyActivity extends  Activity {
 
     @Override
