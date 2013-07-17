@@ -10,7 +10,7 @@
 * Example of xml inclusion :
     - xmlns:richChat = "http://schemas.android.com/apk/res-auto (this line should be added in your main view)
        
-    - <com.example.EChatLibrary.RichChat
+    - /<com.example.EChatLibrary.RichChat
 		android:id = "@+id/RichChatView1"
         	android:layout_width = "match_parent"
 		android:layout_height = "wrap_content"
